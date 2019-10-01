@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+<node name ="talker1" pkg="beginner_tutorial"
+type="talker1"/>
+<node name ="talker2" pkg="beginner_tutorial"
+type="talker2"/>
+<node name ="adapter1" pkg="beginner_tutorial"
+type="adapter1"/>
+<node name ="adapter2" pkg="beginner_tutorial"
+type="adapter2"/>
+<node name ="listener" pkg="beginner_tutorial"
+type="listener"/>
+<node name ="table" pkg="beginner_tutorial"
+type="table"/>
+<node name ="matcher" pkg="beginner_tutorial"
+type="matcher"/>
+</launch>
